@@ -1,0 +1,54 @@
+# while True:
+#     gender_input = int(input("""Enter your gender:
+# 1 for male 
+# 2 for female: """))
+
+#     user_input = int(input("Enter your age: "))
+
+#     if user_input >= 90:
+#         print("God bless you.")
+#     elif gender_input == 1:
+#         if user_input >= 21:
+#             print("You are an adult male and you can marry.")
+#         elif user_input >= 18:
+#             print("You are an adult male.")
+#         elif user_input <= 10:
+#             print("Pogo dekho")
+#         else:
+#             print("You are not an adult male.")
+#     elif gender_input == 2:
+#         if user_input >= 18:
+#             print("You are an adult female and you can marry.")
+#         else:
+#             print("You are not an adult female.")
+#     else:
+#         print("Invalid gender input.")
+while True:
+    gender_input = int(input("""Enter your gender:
+   1 for male 
+   2 for female: """))
+   
+    user_input = int(input("Enter your age: "))
+
+    if gender_input == 1:
+        if user_input >= 91:
+            print("Ek pau kabar mai hai uncle.")
+        elif user_input >= 21:
+            print("Feelding set.")
+        elif user_input <= 18:
+            print("Doing study boy.")
+        else:
+            print("You are an adult male.")
+
+    elif gender_input == 2:
+        if user_input >= 90:
+            print("Should we look into new teeth for you, Grandma?")
+        elif user_input >= 19:
+            print("Eligible for marriage.")
+        elif user_input <= 18:
+            print("Doing study girl.")
+        else:
+            print("You are an adult female.")
+
+    else:
+        print("Invalid input.")
