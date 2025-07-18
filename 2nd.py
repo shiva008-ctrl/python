@@ -5,19 +5,19 @@ while True:
     user_input = int(input("Enter your age: "))
     if gender_input == 1:
          if user_input>=91:
-          print("ek pau kabar mai hai uncle") 
+          print("you are vry elder ") 
     elif user_input>=21:
-        print("feelding set")
+        print("eligible for marrrige ")
      
     elif user_input<=18:
-        print("doing study boy ")
+        print("watch poggo ")
     else:
         print("you are an adult male")   
     if gender_input == 2:
         if user_input>=90:
          print("Should we look into new teeth for you, Grandma")
         elif user_input>=19:
-            print("eligible for muder ")
+            print("eligible for marriage ")
     
         elif user_input<=18:
              print("doing study ")

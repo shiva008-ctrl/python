@@ -52,3 +52,7 @@ while True:
 
     else:
         print("Invalid input.")
+
+
+        #RAG PIPELINE
+        
