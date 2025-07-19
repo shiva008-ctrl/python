@@ -1,2 +1,11 @@
-# Auto detect text files and perform LF normalization
+input_string"aaaabbbccccddddeee"
+count dist{}
+if char in count_dist:
+    count_dist[char] +=1
+    else:
+    count_dist[char] =1
+for char in count_dist:
+    print(f"{char}:{count_dist[char]}")
+    
+ Auto detect text files and perform LF normalization
 

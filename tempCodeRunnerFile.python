@@ -55,4 +55,10 @@ while True:
 
 
         #RAG PIPELINE
+       # def my_function():
+    print("hello sahi")
+my_function()
         
+        def my_function(fname):
+        print(fname,"hello")
+        my_function("sahil")
