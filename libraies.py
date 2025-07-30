@@ -151,35 +151,68 @@
 # b=5
 # print (a+b)
 
-import numpy as np
+# import numpy as np
 # print(np.random.rand(3))
 # print(np.random.randint(1,10,5))
 # print(np.random . randn(3,3))
 # print(np.random . seed(42))
 
 
-a=np.array([1,2,3,4,5,6,7,8,9,])
-gochu=[0,2,3,5]
-print(a[gochu])
+# a=np.array([1,2,3,4,5,6,7,8,9,])
+# gochu=[0,2,3,5]
+# print(a[gochu])
+
+# import numpy as np
+# a=np.array(['cat','dog'],dtype='U6')
+# print(a.dtype)
+
+# from numpy.linalg import inv,det,eig
+# a=np.array([[1,2],[3,4]])
+# result=np.dot(a,a)
+# inv(a)
+# det(a)
+# eig(a)
+# print(result)
+# print(inv(a),det(a),eig(a))
+
+# a=np.array([[1,2],[3,4]])
+# np.save('my_array.npy',a)
+# np.load('data.csv',a,delimiter=',')
+# np.genfromtxt('data.csv',delimiter=',')
 
 
+# arr=np.array([np.nan,np.nan,np.nan])
+# print(np.nan(arr))
+# print(np.nan_to_num(arr))
 
+import pandas as pd
 
+# data = {
+#     'Name': ['alice', 'bob', 'charlie'],
+#     'Age': [24, 27, 22],
+#     'city': ['delhi', 'Mumbai', 'pune']
+# }
 
+# ghochu = pd.DataFrame(data)
+# print(ghochu)
 
+# df=pd.read_csv("student.csv")
+# df.to_csv("output.csv",
+#           index=False)
 
-
-
-
-
-
-
-
-
-
-
-
-
+# df.head()first 5 rows
+# df.tail() displaythe last few rows of the dataframe
+# df.info()display the datatypes and null vales 
+# df.colums()only return colums
+# df.discribe()summry statistics
+# df.shape()get the shape of the dataframe
+data = {
+    'Name': ['alice', 'bob', 'charlie'],
+    'Age': [24, 27, 22],
+    'city': ['delhi', 'Mumbai', 'pune'],
+    'score': [56, 56, 78, 79, 23]
+    
+}
 
 
 

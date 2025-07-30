@@ -1,1 +1,1 @@
-arr[0]=42
+print(np.isnan(arr))
