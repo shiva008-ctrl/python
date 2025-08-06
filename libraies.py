@@ -185,7 +185,7 @@
 # print(np.nan(arr))
 # print(np.nan_to_num(arr))
 
-import pandas as pd
+# import pandas as pd
 
 # data = {
 #     'Name': ['alice', 'bob', 'charlie'],
@@ -201,18 +201,24 @@ import pandas as pd
 #           index=False)
 
 # df.head()first 5 rows
-# df.tail() displaythe last few rows of the dataframe
+# df.tail() displaythe last three rows of the dataframe
 # df.info()display the datatypes and null vales 
 # df.colums()only return colums
-# df.discribe()summry statistics
-# df.shape()get the shape of the dataframe
-data = {
-    'Name': ['alice', 'bob', 'charlie'],
-    'Age': [24, 27, 22],
-    'city': ['delhi', 'Mumbai', 'pune'],
-    'score': [56, 56, 78, 79, 23]
-    
-}
+ # df.discribe()summry statistics
+#  # df.shape()get the shape of the dataframe
+# data = {
+#     'Name': ['alice', 'bob', 'charlie'],
+#     'Age': [24, 27, 22],
+#     'city': ['delhi', 'Mumbai', 'pune'],
+#     'score': [56, 56, 78, 79, 23]
+# }
+# print("\ninfo:")
+# df.info()
 
+
+import pandas as pd
+data = {'Name': ['Alice', 'Bob', 'Charlie'], 'Age': [25, 30, 35]}
+df = pd.DataFrame(data)
+df.to_csv('output.csv', index=False)
 
 
